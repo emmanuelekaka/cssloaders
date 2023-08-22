@@ -59,19 +59,18 @@ body{
     }
     100%{
         transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
-    }
-    
+    } 
 }
 /* The third child */
 .loader:nth-child(3){
     border-bottom:5px solid green;
-    animation: rotate3 2s linear infinite;
+    animation: rotate3 1s linear infinite;
 }
 @keyframes rotate3 {
     0%{
-        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        transform: rotateX(-35deg) rotateY(-45deg) rotateZ(360deg);
     }
     100%{
-        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+        transform: rotateX(-35deg) rotateY(-45deg) rotateZ(0deg);
     }
 }
