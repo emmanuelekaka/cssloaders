@@ -33,9 +33,10 @@ body{
     justify-content: center;
     font-size: 0.5rem;
 }
+/* First child */
 .loader:nth-child(1){
     border-bottom:5px solid red;
-    animation: rotate 1.5s linear infinite;
+    animation: rotate 1s linear infinite;
 }
 @keyframes rotate {
     0%{
@@ -46,30 +47,31 @@ body{
     }
     
 }
-
+/* The second child */
 .loader:nth-child(2){
     border-bottom:5px solid white;
     animation: rotate2 1s linear infinite;
 }
+
 @keyframes rotate2 {
     0%{
-        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
     }
     100%{
-        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
     }
     
 }
+/* The third child */
 .loader:nth-child(3){
     border-bottom:5px solid green;
-    animation: rotate3 0.8s linear infinite;
+    animation: rotate3 2s linear infinite;
 }
 @keyframes rotate3 {
     0%{
-        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
-    }
-    100%{
         transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
     }
-    
+    100%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
 }
