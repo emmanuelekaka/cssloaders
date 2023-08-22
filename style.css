@@ -47,7 +47,7 @@ body{
     
 }
 
-/* .loader:nth-child(2){
+.loader:nth-child(2){
     border-bottom:5px solid white;
     animation: rotate2 1s linear infinite;
 }
@@ -59,4 +59,4 @@ body{
         transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
     }
     
-} */
+}
